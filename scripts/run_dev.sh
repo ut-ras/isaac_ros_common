@@ -126,7 +126,7 @@ if [[ ! -z "${CONFIG_IMAGE_KEY}" ]]; then
     IMAGE_KEY=$CONFIG_IMAGE_KEY
 fi
 
-BASE_IMAGE_KEY=$PLATFORM.user
+BASE_IMAGE_KEY=$PLATFORM.realsense.user
 if [[ ! -z "${IMAGE_KEY}" ]]; then
     BASE_IMAGE_KEY=$PLATFORM.$IMAGE_KEY
 
